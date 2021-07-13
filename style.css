@@ -14,9 +14,8 @@ body{
 }
 
 header{
-	background-color:coral;
-	color:#fff;
-	
+	background-color:rgb(255, 255, 255);
+	color:#333;
 	
 }
 
@@ -28,6 +27,7 @@ nav{
 nav ul{
 	padding:0;
 	list-style: none;
+	padding-top: 25px;
 }
 
 nav li{
@@ -41,10 +41,10 @@ nav a{
 	padding-right:15px;
 }
 
-p {
+p{
 	background-image:url('Artistic.jpg');
 	background-position:center right;
-	min-height:300px;
+	min-height:80px;
 	margin-bottom:30px;
 	text-align: center;
 }
@@ -53,9 +53,16 @@ h1{
 	color:#333;
 	font-size:50px;
 	line-height: 1.6em;
-	padding-top:30px;
+	padding-top: 5px;
 }
 
+h2{
+	color:rgb(236, 225, 225);
+	font-size:20px;
+	line-height: 1.6em;
+	padding-top:30px;
+	padding-left: 50px;
+}
 main{
 	float:left;
 	width:70%;
@@ -63,10 +70,11 @@ main{
 	box-sizing: border-box;
 }
 
-sidebar{
+#sidebar{
 	float:right;
 	width:30%;
-	background: #333;
+	height: 40%;
+	background: rgb(235, 229, 229);
 	color:#fff;
 	padding:10px;
 	box-sizing: border-box;
